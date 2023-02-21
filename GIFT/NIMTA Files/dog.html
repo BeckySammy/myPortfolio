@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FORM DESIGN</title>
+    <style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: seagreen;
+    }
+    input[type=text], select, textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid black;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom:16px;
+        resize: vertical;
+    }
+    input[type=submit] {
+        background-color: green;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor:pointer;
+    }
+    input[type=submit]:hover {
+        background-color: red;
+    }
+    #mj {
+        border-style: ridge;
+        border-radius: 5px;
+        padding: 20px;
+        width: 30%;
+        margin:center;
+        margin-left: 400px;
+        background-color: rgb(60, 155, 68);
+    }
+    </style>
+</head>
+<body>
+ <div id="mj" >
+     <form>
+         <label for="fname">FIRST NAME</label>
+         <input type="text" name="Fistname" placeholder="Enter your Name Pls">
+
+         <label for="lname">LAST NAME</label>
+         <input type="text" name="Lastname" placeholder="Enter Your Papa name">
+
+         <label for="country">COUNTRY</label>
+         <select id="subject" name="country">
+             <option value="australia">Australia</option>
+             <option value="nigeria">Nigeria</option>
+             <option value="usa">USA</option>
+         </select>
+         <label for="subject">SUBJECT</label>
+         <textarea name="subject" placeholder="Write a comment or a letter here" style="height: 300px;"></textarea>
+        <input type="submit" value="submit">
+     </form>
+ </div>   
+</body>
+</html>

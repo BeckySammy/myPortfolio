@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:aqua;
+        }
+        table{
+            border-spacing: 0px;
+            border-style: dotted;
+            border-radius: 10px;
+            width: 50%;
+            border:1px solid green;
+            background-color: azure;
+            margin:0%;
+            margin-left: 300px;
+            cursor: pointer;
+        }
+        th,td{
+            text-align: left;
+            padding: 16px;
+        }
+        th{
+            background-color:green;
+            border:1px solid white;
+        }
+        tr:nth-child(even) {
+            background-color: wheat;
+        }
+        tr:hover {background-color:turquoise;}
+        
+        input[type="click"]:hover{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+    <p><b>HTML TABLE</b></p>
+        <tr>
+            <th>COMPANY</th>
+            <th>CONTACT</th>
+            <th>COUNTRY</th>
+        </tr>
+        <tr class="az">
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr class="az">
+            <td>Samuel Becky</td>
+            <td>Franciso Chang</td>
+            <td>Mexico</td>
+        </tr>
+        <tr class="az">
+            <td>Ernst Handel</td>
+            <td>Roland Mendel </td>
+            <td>Australia</td>
+        </tr>
+        <tr class="az">
+            <td>Island Trading</td>
+            <td>Helen Bennett</td>
+            <td>UK</td>
+        </tr>
+        <tr class="az">
+            <td>Onwuka Narhzzy</td>
+            <td>Yoshi Tannamuri</td>
+            <td>Canada</td>
+        </tr>
+        <tr class="az">
+            <td>Abang Maria</td>
+            <td>Giovanni Rovelli</td>
+            <td>Italy</td>
+        </tr>
+    </table>
+    <input type="click" name="click">
+</body>
+</html>
